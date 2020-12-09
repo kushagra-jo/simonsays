@@ -1,4 +1,5 @@
 body {
+  margin-top: 6rem;
   text-align: center;
   background-color: #011F3F;
 }
@@ -15,7 +16,12 @@ body {
   display: block;
   width: 50%;
   margin: auto;
+}
 
+.row {
+  height: 23rem;
+  margin: -6rem;
+  margin-top: 1.4rem;
 }
 
 .btn {
@@ -52,3 +58,20 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+/* @media screen and (max-width: 384px) {
+  .row {
+      height: 25rem;
+      margin: -6rem;
+      margin-top: 1.5rem;
+    }
+    .container {
+      padding-top: 6rem;
+    }
+     {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 3rem;
+      margin-top: 17rem;
+      color: #FEF2BF;
+    }
+} */
